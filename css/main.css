@@ -1,0 +1,293 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+div {
+  border-radius: 3px;
+  
+}
+a {
+  color: #000;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(236, 236, 236);
+}
+nav img {
+  width: 27px;
+}
+header {
+  background-color: #385898;
+  box-sizing: border-box;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li a {
+  color: #fff;
+}
+form {
+  display: flex;
+  border: 1px solid;
+  margin-left: 5px;
+}
+form input {
+  width: 400px;
+  padding-left: 14px;
+  border: none;
+  border-radius: 0;
+}
+form input:focus {
+  outline: none;
+}
+form button {
+  padding: 6px 20px;
+  border: 4px;
+  cursor: pointer;
+  border-radius: 0;
+}
+nav div {
+  display: flex;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  margin: 0px 9px;
+}
+/* ------main------ */
+main {
+  display: flex;
+}
+main aside {
+  width: 25%;
+  margin-left: 40px;
+}
+
+aside img {
+  width: 30px;
+  border-radius: 20px;
+  height: 30px;
+}
+aside div {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+aside ul {
+  margin: 0px;
+}
+div p {
+  margin-left: 9px;
+}
+
+aside li {
+  padding-left: 20px;
+  margin: 10px 0px;
+}
+#bgdesine {
+  background-color: #fff;
+  padding: 7px 0px 7px 20px;
+  margin-top: 0px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+}
+#bgdesine i {
+  color: gray;
+  margin-left: 90px;
+}
+aside > p {
+  color: gray;
+  margin-left: 32px;
+}
+.center {
+  width: 40%;
+}
+.center > p {
+  background-color: rgba(180, 180, 180, 0.26);
+  padding: 7px;
+  margin-bottom: 0px;
+}
+.centerdiv1 {
+  background-color: #fff;
+  height: 100px;
+}
+.centerdiv1 img {
+  border-radius: 20px;
+}
+.centerdiv1 form {
+  padding: 10px;
+  border: none;
+  margin: 7px;
+  margin-top: 0;
+  margin-bottom: 11px;
+  border-bottom: 1px solid rgb(209, 209, 209);
+}
+.centerdiv1 a {
+  background-color: rgba(214, 212, 212, 0.486);
+  padding: 4px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.centerdiv2 {
+  margin: 20px 0px;
+
+  padding-top: 5px;
+  background-color: #fff;
+}
+.centerdiv2 #profil {
+  display: flex;
+  margin: 10px;
+}
+.centerdiv2 .para {
+  display: flex;
+  margin: 10px;
+  margin-bottom: 0;
+}
+.centerdiv2 a p {
+  margin: 0;
+  margin-left: 10px;
+  color: gray;
+  font-size: 12px;
+}
+.centerdiv2 div img {
+  border-radius: 20px;
+}
+.centerdiv2 div #para {
+  color: rgba(0, 0, 255, 0.712);
+  margin-top: 5px;
+  font-size: medium;
+}
+
+#Postimg {
+  width: 100%;
+}
+.para {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.548);
+  padding-bottom: 20px;
+}
+.para p {
+  margin: 0px;
+}
+.para :first-child {
+  color: green;
+}
+.para :last-child {
+  color: red;
+}
+.Like {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0px;
+}
+.Like a {
+  padding: 10px 80px 10px 80px;
+}
+.Like a:hover {
+  background-color: rgba(219, 217, 217, 0.925);
+}
+.finish {
+  width: 24%;
+}
+.finish .div1 {
+  background-color: #fff;
+  margin-left: 15px;
+  width: 100%;
+  text-align: center;
+}
+.finish .div1>:first-child {
+  text-align: left;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid rgba(173, 173, 173, 0.432);
+  margin-right: 6px;
+}
+.finish .div1 :first-child i {
+  color: gray;
+  border-bottom: none;
+}
+.finish .content {
+  display: flex;
+  margin-left: 17px;
+}
+.finish .content :first-child{
+  background-color:rgba(128, 128, 128, 0.144) ;
+
+}
+.finish .content a {
+  padding: 5px 20px;
+  border: 1px solid rgba(128, 128, 128, 0.479);
+
+  
+}
+.finish .langauge
+{
+  background-color: #fff;
+  margin-left: 15px;
+  width: 100%;
+height: 65px;
+padding:10px;
+}
+.finish .langauge span{
+  color: rgb(4, 4, 139);
+}
+.finish .langauge p{
+  margin: 0;
+  color: gray;
+  display: flex;
+
+}
+.finish .langauge a{
+  background-color: rgba(211, 208, 208, 0.432);
+  padding: 4px 13px;
+  border: 1px solid rgb(214, 214, 214);
+  border-radius:2px ;
+  margin-left: 3px;
+
+}
+.finish :last-child :first-child{
+  padding-left: 15px;
+  margin-bottom:0px;
+  color: gray;
+} .finish :last-child :first-child i {
+  color: gray;
+ padding:0px;
+ font-size:13px;
+}
+.finish :last-child :last-child{
+  color: rgb(61, 61, 61);
+  padding-left: 15px;
+  margin-top: 0px;
+}
+.finish :last-child :last-child i {
+
+ padding:3px;
+ font-size:14px;
+}
+@media (max-width: 650px) {
+  nav {
+    padding-top: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+  main {
+    align-items: center;
+    flex-direction: column;
+  }
+  .Like {
+    align-items: center;
+    flex-direction: column;
+  }
+}
